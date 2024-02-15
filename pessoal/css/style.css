@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    height: 2000px;
+  }
+   
+  .icone {
+    margin-left: -60px;
+  }
+   
+  @font-face {
+    font-family:'GODOFWAR';
+    src: url(GODOFWAR.TTF);
+  }
+   
+  #barraPreta{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+   
+  #logo-sony {
+    width: 80px;
+    height: 20px;
+  }
+   
+  #navegador {
+    width: 100%;
+    height: 30px;
+  }
+   
+  #logo-ps4 {
+    width: 26px;
+    height: 26px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 1.5px;
+    cursor: pointer;
+  }
+   
+  #nomes-navegação {
+    list-style: none;
+    margin-left: 150px;
+  }
+   
+  #nomes-navegação li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 60px;
+    float: left;
+    color: gray;
+    margin-top: 3px;
+    cursor: pointer;
+    transition: color 0.1s ease;
+    font-weight: bold;
+  }
+   
+  #nomes-navegação li:hover {
+    color: rgb(90, 90, 250);
+  }
+   
+  #button {
+    border-radius: 20px;
+    background-color: rgb(90, 90, 250);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    width: 115px;
+    height: 23px;
+    float: right;
+    font-size: 14px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+   
+  #button:hover {
+    background: rgb(67, 67, 187);
+  }
+   
+  #cabeçalho {
+    width: 100%;
+    height: 65px;
+    border: 1px solid white;
+  }
+   
+  #logo-god {
+    width: 200px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+   
+  #nomes-cabeçalho {
+    list-style: none;
+    margin-top: 17px;
+    margin-right: 500px;
+    float: right;
+  }
+   
+  #nomes-cabeçalho li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-right: 60px;
+    float: left;
+    margin-top: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+   
+  #nomes-cabeçalho li:hover {
+    background: rgb(232, 232, 232);
+    border-radius: 20px;
+  }
+   
+  #img-fundo {
+    width: 100%;
+  }
+   
+  #atreus {
+    margin-top: -6px;
+    width: 100%;
+  }
+   
+  #fundo-branco-god {
+    width: 1900px;
+    height: 1600px;
+   
+  }
+   
+  #sessão-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  #fonte {
+    font-size: 45px;
+    font-family: 'GODOFWAR', sans-serif;
+  }
+   
+  #sessão {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+   
+  p {
+    margin-left: 20px;
+    margin-top: -20px;
+    font-size: 25px;
+    font-family:  'GODOFWAR', sans-serif;
+  }
+   
+  #sessão-2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+   
+  .comprar {
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background: rgb(220,220,220);
+    font-size: 15px;
+    font-family: 'GODOFWAR';
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+   
+  .comprar:hover {
+    color: red;
+    border: 3px solid rgb(220, 220, 220);
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+  }
+   
+  .imagens {
+    width: 320px;
+    height: 310px;
+    border-radius: 15px;
+    margin: 25px;
+    float: left;
+    transition: 0.3s ease-in-out;
+  }
+   
+  .imagens:hover {
+    width: 325px;
+    height: 315px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+  }
+   
+   
+  #icone-god {
+    width: 210px;
+    height: 210px;
+    margin: 16px;
+  }
+   
+  h1 {
+    color: white;
+    margin-right: 16px;
+   
+  }
+   
+  footer {
+    position: static;
+    width: 100%;
+    height: 300px;
+    bottom: 0px;
+    margin-top: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
